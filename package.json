@@ -1,0 +1,39 @@
+{
+  "name": "mini-vite-ysy",
+  "version": "1.0.13",
+  "description": "an easy module about vite",
+  "main": "dist/node/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./esbuild.js",
+    "start": "node ./dist/cli.js"
+  },
+  "bin": {
+    "mini-vite": "bin/mini-vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mime": "^3.0.0",
+    "acorn": "^8.8.0",
+    "chalk": "^5.0.1",
+    "magic-string": "^0.26.3",
+    "es-module-lexer": "^1.0.3",
+    "ws": "^8.8.1",
+    "chokidar": "^3.5.3",
+    "express": "^4.18.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.7.14",
+    "@types/ws": "^8.5.3",
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "rollup": "^2.79.0",
+    "esbuild": "^0.15.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "commander": "^9.4.0"
+  }
+}
